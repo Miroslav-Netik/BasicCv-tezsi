@@ -1,0 +1,20 @@
+# Ignore .NET artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.docstates
+
+# Ignore packaging artifacts
+*.nupkg
+*.symbols.nupkg
+pkg/
+
+# Ignore Visual Studio artifacts
+.vs/
+*.pidb
+*.svclog
+*.dotCover
+jekyll-metadata
+_ExcludeFromStyleCop
